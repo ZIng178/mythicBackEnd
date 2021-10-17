@@ -1,11 +1,12 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
+const dotenv = require("dotenv");
+
+dotenv.config();
 
 mongoose
-  .connect(
-    "mongodb+srv://wangdi:bhodrangzen@mythic.5eh2e.mongodb.net/mythic?retryWrites=true&w=majority"
-  )
+  .connect(process.env.MONGO_URL)
   .then(() => console.log("DBConnection Successful"))
   .catch((err) => {
     console.log(err);
