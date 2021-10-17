@@ -7,14 +7,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git"
-    
+    "type": "git",
+    "url" :"https://github.com/ZIng178/mythicBackEnd.git"
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ZIng178/responsive-ecommerce/issues"
+    "url": "https://github.com/ZIng178/mythicBackEnd.git/issues"
   },
-  "homepage": "https://github.com/ZIng178/responsive-ecommerce#readme"
+  "homepage": "https://github.com/ZIng178/mythicBackEnd.git#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.11",
+    "nodemon": "^2.0.13"
+  }
 }
