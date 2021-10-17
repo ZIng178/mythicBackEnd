@@ -1,17 +1,20 @@
 {
-  "name": "mythicbackend",
+  "name": "mythicBackEnd",
   "version": "1.0.0",
-  "description": "Backend for Mythic ( An Online Fashion Outlet )",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "Fashion",
-    "Women's",
-    "Fashion",
-    "StreetWear"
-  ],
-  "author": "Wangdi Tenzing",
-  "license": "ISC"
+  "repository": {
+    "type": "git"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZIng178/responsive-ecommerce/issues"
+  },
+  "homepage": "https://github.com/ZIng178/responsive-ecommerce#readme"
 }
