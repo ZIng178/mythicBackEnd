@@ -9,6 +9,7 @@ const cartRoute = require("./routes/cart");
 const orderRoute = require("./routes/order");
 const stripeRoute = require("./routes/stripe");
 const cors = require("cors");
+const port = process.env.PORT || 5001;
 const corsOptions = {
   origin: "*",
   credentials: true, //access-control-allow-credentials:true
@@ -32,6 +33,6 @@ app.use("/api/carts", cartRoute);
 app.use("/api/orders", orderRoute);
 app.use("/api/checkout", stripeRoute);
 
-app.listen(5001, () => {
+app.listen(port, () => {
   console.log("Backend server is running ");
 });
