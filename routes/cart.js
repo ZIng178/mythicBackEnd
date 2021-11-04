@@ -5,7 +5,7 @@ const {
 } = require("./verifyToken");
 
 const router = require("express").Router();
-const Cart = require("../models/cart");
+const Cart = require("../models/Cart");
 
 //CREATE
 
